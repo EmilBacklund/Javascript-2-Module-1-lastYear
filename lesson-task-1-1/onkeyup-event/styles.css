@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    background: #dadada;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.container {
+    border: 1px solid grey;
+    padding: 1rem;
+    background: #ebebeb;
+    border-radius: 1rem;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.character-count {
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
