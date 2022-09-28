@@ -26,3 +26,4 @@ const person = people.find((findPerson) => {
 // }
 
 console.log(person);
+// { id: 2, name: "Anders"}
