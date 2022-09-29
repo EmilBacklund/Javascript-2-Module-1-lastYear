@@ -1,0 +1,11 @@
+.my-container,
+.my-container2,
+.my-container3,
+.my-container4,
+span {
+  font-size: 2rem;
+}
+
+span {
+  color: red;
+}
